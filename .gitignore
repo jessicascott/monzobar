@@ -33,6 +33,7 @@ jspm_packages
 # Optional npm cache directory
 .npm
 .DS_Store
+app/token.js
 
 # Optional REPL history
 .node_repl_history
