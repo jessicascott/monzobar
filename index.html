@@ -1,0 +1,52 @@
+<html>
+  <head>
+    <title>Sample Menubar App</title>
+    <script charset="utf-8">require('./app/window')</script>
+    <link rel="stylesheet" type="text/css" href="bootstrap.css">
+    <style>
+    	transaction {
+    		font-size: 12px;
+		    display: block;
+		    border-bottom: 1px solid #F3F4F5;
+		    padding: 10px 15px;
+    	}
+    	transaction .row {
+    		height: 20px;
+    		line-height: 20px;
+    	}
+    	transaction img {
+    		border-radius: 6px;
+    	}
+    	.icon {
+    		font-size: 20px;
+    		float:left; 
+    		margin-right: 10px;
+    	}
+    	.description {
+    		white-space: nowrap;
+    	}
+
+    	.menu-title {
+    		background-color: #14233C;
+    		color: #ffffff;
+    		margin-right: auto;
+    		margin-left: auto;
+    		display: block;
+    		height: 70px;
+    		/*padding: 10px 15px;*/
+    		/*text-align: right;*/
+    	}
+    	h3 small {
+    		text-transform: uppercase;
+    		font-size: 10px;
+    		white-space: nowrap;
+    		/*float: right !important;*/
+    	}
+    </style>
+  </head>
+  <body>
+    <div id="container" class="body">
+    	<div id="menu-title" class="menu-title"></div>
+    </div>
+  </body>
+</html>
